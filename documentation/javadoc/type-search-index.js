@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"br.com.documentation","l":"AddNum"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();

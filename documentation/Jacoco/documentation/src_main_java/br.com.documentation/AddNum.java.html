@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>AddNum.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">AddNum (22 de jun. de 2022 10:10:34)</a> &gt; <a href="../../index.html" class="el_group">documentation</a> &gt; <a href="../index.html" class="el_bundle">src/main/java</a> &gt; <a href="index.source.html" class="el_package">br.com.documentation</a> &gt; <span class="el_source">AddNum.java</span></div><h1>AddNum.java</h1><pre class="source lang-java linenums">package br.com.documentation;
+
+import java.io.*;
+
+/**
+* &lt;b&gt;Adicione Dois Numeros!&lt;/b&gt;
+* O programa AddNum implementa uma aplicacao que
+* simplesmente adiciona dois numeros inteiros fornecidos e imprime
+* a saida na tela.
+* &lt;p&gt;
+* &lt;b&gt;Observacao:&lt;/b&gt; Dar comentarios adequados em seu programa torna mais
+* amigavel e assume-se como um codigo de alta qualidade.
+*
+* @author  Matheus Aleixo
+* @version 1.0
+* @since   2022-06-15
+*/
+<span class="fc" id="L18">public class AddNum {</span>
+/**
+   * Este metodo e usado para adicionar dois numeros inteiros. 
+   * Isto e a forma mais simples de um metodo de classe, apenas para
+   * mostra o uso de varias tags javadoc.
+   * @param numA Este e o primeiro parametro do metodo addNum
+   * @param numB Este e o segundo parametro do metodo addNum
+   * @return int Retorna a soma de numA e numB.
+   */
+   public int addNum(int numA, int numB) {
+<span class="fc" id="L28">      return numA + numB;</span>
+   }
+
+   /**
+   * Este e o metodo principal que utiliza o metodo addNum.
+   * @exception IOException Utilizado em erros de entrada.
+   * @see IOException
+   */
+
+   public static void main(String args[]) throws IOException {
+<span class="fc" id="L38">      AddNum obj = new AddNum();</span>
+<span class="fc" id="L39">      int sum = obj.addNum(10, 20);</span>
+
+<span class="fc" id="L41">      System.out.println(&quot;Sum of 10 and 20 is :&quot; + sum);</span>
+<span class="fc" id="L42">   }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span>AddNum (22 de jun. de 2022 10:10:34)</div></body></html>
