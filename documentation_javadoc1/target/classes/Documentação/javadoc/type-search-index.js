@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"br.com.claro.javadoc","l":"AddNum"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();
