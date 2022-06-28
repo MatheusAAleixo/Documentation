@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"br.com.documentation","c":"AddNum","l":"AddNum()","u":"%3Cinit%3E()"},{"p":"br.com.documentation","c":"AddNum","l":"addNum(int, int)","u":"addNum(int,int)"},{"p":"br.com.documentation","c":"AddNum","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
